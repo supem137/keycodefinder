@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #CC9544;
+    font-family: 'Signika', sans-serif;
+    font-size: 30px;
+}
+
+.container{
+    display: grid;
+    background-color: #1C0A00;
+    height:100vh;    
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    gap: 10px;
+}
+
+#lable_1{
+    display: grid;
+    background-color: #361500;
+    width: 400px;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.key_code_style{
+    display: grid;
+    background-color: #603601;
+    width: 150px;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
